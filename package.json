@@ -1,6 +1,6 @@
 {
   "name": "twin-wedding-celebration",
-  "private": true,
+  "homepage": "https://twoheartsoneday.github.io/AnuWithAshith-And-BinuWithAleena/",
   "version": "1.0.0",
   "type": "module",
   "scripts": {
@@ -20,7 +20,7 @@
     "@types/react-dom": "^18.2.17",
     "@vitejs/plugin-react": "^4.2.1",
     "autoprefixer": "^10.4.16",
-    "gh-pages": "^6.1.1",
+    "gh-pages": "^6.3.0",
     "postcss": "^8.4.32",
     "tailwindcss": "^3.4.0",
     "vite": "^5.0.8"
