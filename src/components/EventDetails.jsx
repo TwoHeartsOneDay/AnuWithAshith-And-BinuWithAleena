@@ -8,7 +8,7 @@ const EventDetails = () => {
       icon: '💒',
       date: '14 February 2026',
       time: '11:00 AM',
-      venue: 'CSI Cathedral Church',
+      venue: 'CSI Holy Trinity Cathedral',
       location: 'Kottayam',
       description: 'Witness the sacred union of two beautiful couples in the presence of God, family, and friends.',
     },

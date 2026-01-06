@@ -121,7 +121,7 @@ const Hero = () => {
             14 February 2026 • 11:00 AM
           </p>
           <p className="text-base sm:text-lg md:text-2xl font-sans text-gray-600 tracking-wider leading-relaxed">
-            CSI Cathedral Church, Kottayam
+            CSI Holy Trinity Cathedral, Kottayam
           </p>
         </motion.div>
 
