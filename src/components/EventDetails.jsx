@@ -16,10 +16,10 @@ const EventDetails = () => {
       title: 'Reception',
       icon: '🎊',
       date: '14 February 2026',
-      time: 'Celebrate with us',
+      time: '12:30 PM',
       venue: 'Benjamin Bailey Auditorium',
       location: 'Kottayam',
-      description: 'Join us for an evening of joy, music, and celebration as we begin our new journey together.',
+      description: 'Join us for an afternoon of joy, music, and celebration as we begin our new journey together.',
     },
   ]
 
