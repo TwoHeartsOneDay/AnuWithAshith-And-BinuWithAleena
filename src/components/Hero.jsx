@@ -111,7 +111,7 @@ const Hero = () => {
           </motion.div>
         </motion.div>
 
-        {/* Date */}
+        {/* Date and Location */}
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
@@ -120,9 +120,30 @@ const Hero = () => {
           <p className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-sans font-light text-deepRed mb-3 md:mb-4 leading-tight tracking-wide">
             14 February 2026 • 11:00 AM
           </p>
-          <p className="text-base sm:text-lg md:text-2xl font-sans text-gray-600 tracking-wider leading-relaxed">
+          <p className="text-base sm:text-lg md:text-2xl font-sans text-gray-600 tracking-wider leading-relaxed mb-6 md:mb-8">
             CSI Holy Trinity Cathedral, Kottayam
           </p>
+
+          {/* Get Directions Button */}
+          <motion.a
+            href="#locations"
+            className="inline-flex items-center gap-2 px-6 sm:px-8 py-3 sm:py-4 bg-gradient-to-r from-gold to-yellow-600 text-white font-sans font-semibold text-base sm:text-lg md:text-xl rounded-full shadow-lg hover:shadow-2xl transition-all duration-300 hover:scale-105 focus:outline-none focus:ring-4 focus:ring-gold/50"
+            initial={{ opacity: 0, y: 10 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ delay: 1.5, duration: 0.5 }}
+            whileHover={{ y: -2 }}
+            whileTap={{ scale: 0.98 }}
+            aria-label="Get directions to wedding venue"
+          >
+            <span className="text-xl sm:text-2xl">📍</span>
+            <span>Get Directions</span>
+            <motion.span
+              animate={{ x: [0, 3, 0] }}
+              transition={{ duration: 1.5, repeat: Infinity }}
+            >
+              →
+            </motion.span>
+          </motion.a>
         </motion.div>
 
         {/* Scroll indicator */}

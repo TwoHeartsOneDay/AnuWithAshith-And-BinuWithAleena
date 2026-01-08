@@ -20,7 +20,7 @@ const Locations = () => {
   ]
 
   return (
-    <section className="py-12 md:py-20 px-4 bg-gradient-to-b from-peach-200 via-peach-100 to-peach-50">
+    <section id="locations" className="py-12 md:py-20 px-4 bg-gradient-to-b from-peach-200 via-peach-100 to-peach-50">
       <div className="max-w-7xl mx-auto">
         <motion.div
           className="text-center mb-12 md:mb-16"
